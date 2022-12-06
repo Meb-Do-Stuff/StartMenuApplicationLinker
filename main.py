@@ -62,4 +62,4 @@ while True:
             basename = os.path.basename(values.get('add_btn'))
             shortcut = winshell.shortcut(values.get('add_btn'))
             shortcut.path = apps_path
-            shortcut.write(apps_path)
+            shortcut.write(apps_path) #
